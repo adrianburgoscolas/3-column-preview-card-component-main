@@ -1,3 +1,80 @@
-body{
- margin:0;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 15px;
+    height: 100vh;
+    min-height: 1450px;
+    background-color: hsl(0, 0%, 95%);
+}
+main {
+    position: relative;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+footer {
+    top: 0;
+    position: absolute;
+    margin-top: 1350px;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+.column {
+    height: 341px;
+    width: 225px;
+    padding: 50px;
+}
+h1 {
+    margin: 28px 0 25px 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    margin-top: 25px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+button {
+    padding: 15px 40px 15px 40px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 22px;
 }
