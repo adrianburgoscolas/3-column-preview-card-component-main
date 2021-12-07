@@ -29,6 +29,7 @@ main {
 footer {
     top: 0;
     position: absolute;
+    width: 100%;
     margin-top: 1350px;
 }
 .sedan {
@@ -72,9 +73,39 @@ p {
     font-weight: 400;
 }
 button {
-    padding: 15px 40px 15px 40px;
-    border: none;
+    padding: 13px 40px 13px 40px;
+    border: 2px solid hsl(0, 0%, 95%);;
     border-radius: 50px;
     font-family: 'Lexend Deca', sans-serif;
     margin-top: 22px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);;
 }
+button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+@media only screen and (min-width: 768px){
+    body {
+        min-height: 500px;
+    }
+    .component {
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    footer {
+        margin-top: 550px;
+    }
+    .column {
+        height: 405px;
+        width: 209px;
+        padding: 48px;
+    }
+    button {
+        margin-top: 83px;
+    }
+    h1 {
+        margin: 31px 0 25px 0;
+    }
+}
+    
